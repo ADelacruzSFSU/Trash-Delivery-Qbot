@@ -1,0 +1,233 @@
+[1.725s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.727s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f167a0075b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f167a006950>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f167a006950>>, mixin_verb=('build',))
+[2.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.545s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[2.546s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastdds.meta'
+[2.548s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[2.549s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.549s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.550s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/ros2_ws'
+[2.552s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.552s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.553s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.555s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.555s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.555s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.555s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.741s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.741s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.742s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.742s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.743s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.747s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.749s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.750s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.754s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.754s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.756s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.764s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.764s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.766s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.770s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.770s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.772s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.774s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.774s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.775s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.775s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.776s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.776s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.780s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.781s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.782s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.784s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.784s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[2.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore'
+[2.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore_ament_install'
+[2.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_pkg']
+[2.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_pkg'
+[2.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_meta']
+[2.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_meta'
+[2.806s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ros']
+[2.806s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ros'
+[2.839s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_pubsub' with type 'ros.ament_python' and name 'py_pubsub'
+[2.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_teleop) by extensions ['ignore', 'ignore_ament_install']
+[2.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_teleop) by extension 'ignore'
+[2.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_teleop) by extension 'ignore_ament_install'
+[2.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_teleop) by extensions ['colcon_pkg']
+[2.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_teleop) by extension 'colcon_pkg'
+[2.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_teleop) by extensions ['colcon_meta']
+[2.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_teleop) by extension 'colcon_meta'
+[2.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_teleop) by extensions ['ros']
+[2.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_teleop) by extension 'ros'
+[2.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_teleop) by extensions ['cmake', 'python']
+[2.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_teleop) by extension 'cmake'
+[2.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_teleop) by extension 'python'
+[2.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_teleop) by extensions ['python_setup_py']
+[2.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_teleop) by extension 'python_setup_py'
+[2.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_teleop/launch) by extensions ['ignore', 'ignore_ament_install']
+[2.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_teleop/launch) by extension 'ignore'
+[2.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_teleop/launch) by extension 'ignore_ament_install'
+[2.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_teleop/launch) by extensions ['colcon_pkg']
+[2.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_teleop/launch) by extension 'colcon_pkg'
+[2.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_teleop/launch) by extensions ['colcon_meta']
+[2.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_teleop/launch) by extension 'colcon_meta'
+[2.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_teleop/launch) by extensions ['ros']
+[2.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_teleop/launch) by extension 'ros'
+[2.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_teleop/launch) by extensions ['cmake', 'python']
+[2.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_teleop/launch) by extension 'cmake'
+[2.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_teleop/launch) by extension 'python'
+[2.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_teleop/launch) by extensions ['python_setup_py']
+[2.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_teleop/launch) by extension 'python_setup_py'
+[2.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_teleop/src) by extensions ['ignore', 'ignore_ament_install']
+[2.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_teleop/src) by extension 'ignore'
+[2.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_teleop/src) by extension 'ignore_ament_install'
+[2.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_teleop/src) by extensions ['colcon_pkg']
+[2.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_teleop/src) by extension 'colcon_pkg'
+[2.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_teleop/src) by extensions ['colcon_meta']
+[2.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_teleop/src) by extension 'colcon_meta'
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_teleop/src) by extensions ['ros']
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_teleop/src) by extension 'ros'
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_teleop/src) by extensions ['cmake', 'python']
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_teleop/src) by extension 'cmake'
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_teleop/src) by extension 'python'
+[2.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_teleop/src) by extensions ['python_setup_py']
+[2.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_teleop/src) by extension 'python_setup_py'
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop) by extensions ['ignore', 'ignore_ament_install']
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop) by extension 'ignore'
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop) by extension 'ignore_ament_install'
+[2.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop) by extensions ['colcon_pkg']
+[2.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop) by extension 'colcon_pkg'
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop) by extensions ['colcon_meta']
+[2.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop) by extension 'colcon_meta'
+[2.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop) by extensions ['ros']
+[2.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop) by extension 'ros'
+[2.978s] DEBUG:colcon.colcon_core.package_identification:Package 'src/teleop' with type 'ros.ament_cmake' and name 'teleop'
+[2.978s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.979s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.979s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.979s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.979s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.254s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_args' from command line to 'None'
+[3.254s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target' from command line to 'None'
+[3.254s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.254s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[3.255s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[3.255s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[3.255s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[3.255s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[3.255s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.255s] DEBUG:colcon.colcon_core.verb:Building package 'py_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/ros2_ws/build/py_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/ros2_ws/install/py_pubsub', 'merge_install': False, 'path': '/ros2_ws/src/py_pubsub', 'symlink_install': False, 'test_result_base': None}
+[3.256s] Level 5:colcon.colcon_core.verb:set package 'teleop' build argument 'cmake_args' from command line to 'None'
+[3.256s] Level 5:colcon.colcon_core.verb:set package 'teleop' build argument 'cmake_target' from command line to 'None'
+[3.256s] Level 5:colcon.colcon_core.verb:set package 'teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.256s] Level 5:colcon.colcon_core.verb:set package 'teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[3.257s] Level 5:colcon.colcon_core.verb:set package 'teleop' build argument 'cmake_clean_first' from command line to 'False'
+[3.257s] Level 5:colcon.colcon_core.verb:set package 'teleop' build argument 'cmake_force_configure' from command line to 'False'
+[3.257s] Level 5:colcon.colcon_core.verb:set package 'teleop' build argument 'ament_cmake_args' from command line to 'None'
+[3.257s] Level 5:colcon.colcon_core.verb:set package 'teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[3.257s] Level 5:colcon.colcon_core.verb:set package 'teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.258s] DEBUG:colcon.colcon_core.verb:Building package 'teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/ros2_ws/build/teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/ros2_ws/install/teleop', 'merge_install': False, 'path': '/ros2_ws/src/teleop', 'symlink_install': False, 'test_result_base': None}
+[3.258s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.261s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.262s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/ros2_ws/src/py_pubsub' with build type 'ament_python'
+[3.262s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'ament_prefix_path')
+[3.273s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros2_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.ps1'
+[3.306s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ros2_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.dsv'
+[3.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros2_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.sh'
+[3.347s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.348s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.390s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/ros2_ws/src/teleop' with build type 'ament_cmake'
+[3.391s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/ros2_ws/src/teleop'
+[3.391s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.392s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.418s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/ros2_ws/src/py_pubsub'
+[4.418s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.419s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.527s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ros2_ws/build/teleop': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ros2_ws/src/teleop -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/teleop
+[6.936s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ros2_ws/src/py_pubsub': PYTHONPATH=/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /ros2_ws/build/py_pubsub/build install --record /ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[8.654s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ros2_ws/src/py_pubsub' returned '0': PYTHONPATH=/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /ros2_ws/build/py_pubsub/build install --record /ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[8.665s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/py_pubsub' for CMake module files
+[8.765s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/py_pubsub' for CMake config files
+[8.930s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/py_pubsub/lib'
+[8.940s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/py_pubsub/bin'
+[8.943s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/py_pubsub/lib/pkgconfig/py_pubsub.pc'
+[8.946s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/py_pubsub/lib/python3.10/site-packages'
+[8.951s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'pythonpath')
+[8.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros2_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.ps1'
+[8.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ros2_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.dsv'
+[8.999s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros2_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.sh'
+[9.024s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/py_pubsub/bin'
+[9.028s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_pubsub)
+[9.028s] INFO:colcon.colcon_core.shell:Creating package script '/ros2_ws/install/py_pubsub/share/py_pubsub/package.ps1'
+[9.051s] INFO:colcon.colcon_core.shell:Creating package descriptor '/ros2_ws/install/py_pubsub/share/py_pubsub/package.dsv'
+[9.074s] INFO:colcon.colcon_core.shell:Creating package script '/ros2_ws/install/py_pubsub/share/py_pubsub/package.sh'
+[9.099s] INFO:colcon.colcon_core.shell:Creating package script '/ros2_ws/install/py_pubsub/share/py_pubsub/package.bash'
+[9.124s] INFO:colcon.colcon_core.shell:Creating package script '/ros2_ws/install/py_pubsub/share/py_pubsub/package.zsh'
+[9.147s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/ros2_ws/install/py_pubsub/share/colcon-core/packages/py_pubsub)
+[12.147s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ros2_ws/build/teleop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ros2_ws/src/teleop -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/teleop
+[12.168s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ros2_ws/build/teleop': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/teleop -- -j8 -l8
+[12.315s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ros2_ws/build/teleop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/teleop -- -j8 -l8
+[12.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ros2_ws/build/teleop': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/teleop
+[13.768s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teleop)
+[13.769s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/teleop' for CMake module files
+[13.770s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ros2_ws/build/teleop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/teleop
+[13.860s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/teleop' for CMake config files
+[13.915s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop', 'cmake_prefix_path')
+[13.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros2_ws/install/teleop/share/teleop/hook/cmake_prefix_path.ps1'
+[13.931s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ros2_ws/install/teleop/share/teleop/hook/cmake_prefix_path.dsv'
+[13.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros2_ws/install/teleop/share/teleop/hook/cmake_prefix_path.sh'
+[13.983s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/teleop/bin'
+[13.986s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/teleop/lib/pkgconfig/teleop.pc'
+[13.990s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/teleop/lib/python3.10/site-packages'
+[13.994s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/teleop/bin'
+[13.996s] INFO:colcon.colcon_core.shell:Creating package script '/ros2_ws/install/teleop/share/teleop/package.ps1'
+[14.015s] INFO:colcon.colcon_core.shell:Creating package descriptor '/ros2_ws/install/teleop/share/teleop/package.dsv'
+[14.038s] INFO:colcon.colcon_core.shell:Creating package script '/ros2_ws/install/teleop/share/teleop/package.sh'
+[14.067s] INFO:colcon.colcon_core.shell:Creating package script '/ros2_ws/install/teleop/share/teleop/package.bash'
+[14.097s] INFO:colcon.colcon_core.shell:Creating package script '/ros2_ws/install/teleop/share/teleop/package.zsh'
+[14.125s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/ros2_ws/install/teleop/share/colcon-core/packages/teleop)
+[14.165s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teleop)
+[14.165s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/teleop' for CMake module files
+[14.271s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/teleop' for CMake config files
+[14.349s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop', 'cmake_prefix_path')
+[14.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros2_ws/install/teleop/share/teleop/hook/cmake_prefix_path.ps1'
+[14.372s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ros2_ws/install/teleop/share/teleop/hook/cmake_prefix_path.dsv'
+[14.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros2_ws/install/teleop/share/teleop/hook/cmake_prefix_path.sh'
+[14.418s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/teleop/bin'
+[14.421s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/teleop/lib/pkgconfig/teleop.pc'
+[14.422s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/teleop/lib/python3.10/site-packages'
+[14.425s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/teleop/bin'
+[14.428s] INFO:colcon.colcon_core.shell:Creating package script '/ros2_ws/install/teleop/share/teleop/package.ps1'
+[14.442s] INFO:colcon.colcon_core.shell:Creating package descriptor '/ros2_ws/install/teleop/share/teleop/package.dsv'
+[14.459s] INFO:colcon.colcon_core.shell:Creating package script '/ros2_ws/install/teleop/share/teleop/package.sh'
+[14.476s] INFO:colcon.colcon_core.shell:Creating package script '/ros2_ws/install/teleop/share/teleop/package.bash'
+[14.502s] INFO:colcon.colcon_core.shell:Creating package script '/ros2_ws/install/teleop/share/teleop/package.zsh'
+[14.533s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/ros2_ws/install/teleop/share/colcon-core/packages/teleop)
+[14.545s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[14.545s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[14.546s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[14.546s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[14.596s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[14.597s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.598s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.599s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[14.614s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[14.615s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[14.618s] INFO:colcon.colcon_core.shell:Creating prefix script '/ros2_ws/install/local_setup.ps1'
+[14.637s] INFO:colcon.colcon_core.shell:Creating prefix util module '/ros2_ws/install/_local_setup_util_ps1.py'
+[14.654s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ros2_ws/install/setup.ps1'
+[14.666s] INFO:colcon.colcon_core.shell:Creating prefix script '/ros2_ws/install/local_setup.sh'
+[14.678s] INFO:colcon.colcon_core.shell:Creating prefix util module '/ros2_ws/install/_local_setup_util_sh.py'
+[14.690s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ros2_ws/install/setup.sh'
+[14.701s] INFO:colcon.colcon_core.shell:Creating prefix script '/ros2_ws/install/local_setup.bash'
+[14.712s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ros2_ws/install/setup.bash'
+[14.725s] INFO:colcon.colcon_core.shell:Creating prefix script '/ros2_ws/install/local_setup.zsh'
+[14.733s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ros2_ws/install/setup.zsh'

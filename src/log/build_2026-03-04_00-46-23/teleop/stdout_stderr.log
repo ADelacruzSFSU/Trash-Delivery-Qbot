@@ -1,0 +1,16 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/qbot_platform_driver_interface.dir/src/qbot_platform_driver_interface.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/command.dir/src/command.cpp.o[0m
+[01m[K/ros2_ws/src/teleop/src/qbot_platform_driver_interface.cpp:38:10:[m[K [01;31m[Kfatal error: [m[Kquanser/quanser_persistent_stream.h: No such file or directory
+   38 | #include [01;31m[K"quanser/quanser_persistent_stream.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/qbot_platform_driver_interface.dir/build.make:76: CMakeFiles/qbot_platform_driver_interface.dir/src/qbot_platform_driver_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/qbot_platform_driver_interface.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/ros2_ws/src/teleop/src/command.cpp:30:10:[m[K [01;31m[Kfatal error: [m[Kquanser/quanser_messages.h: No such file or directory
+   30 | #include [01;31m[K"quanser/quanser_messages.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/command.dir/build.make:76: CMakeFiles/command.dir/src/command.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/command.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

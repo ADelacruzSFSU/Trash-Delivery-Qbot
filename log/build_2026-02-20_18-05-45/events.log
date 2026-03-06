@@ -1,0 +1,218 @@
+[0.000000] (-) TimerEvent: {}
+[0.000985] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.001338] (teleop) JobQueued: {'identifier': 'teleop', 'dependencies': OrderedDict()}
+[0.001656] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.097700] (-) TimerEvent: {}
+[0.126377] (teleop) JobStarted: {'identifier': 'teleop'}
+[0.198092] (-) TimerEvent: {}
+[0.299457] (-) TimerEvent: {}
+[0.401235] (-) TimerEvent: {}
+[0.503445] (-) TimerEvent: {}
+[0.605238] (-) TimerEvent: {}
+[0.706103] (-) TimerEvent: {}
+[0.807360] (-) TimerEvent: {}
+[0.908567] (-) TimerEvent: {}
+[1.009772] (-) TimerEvent: {}
+[1.111459] (-) TimerEvent: {}
+[1.175064] (teleop) JobProgress: {'identifier': 'teleop', 'progress': 'cmake'}
+[1.211823] (-) TimerEvent: {}
+[1.233192] (teleop) Command: {'cmd': ['/usr/bin/cmake', '/ros2_ws/src/teleop', '-DCMAKE_INSTALL_PREFIX=/ros2_ws/install/teleop'], 'cwd': '/ros2_ws/build/teleop', 'env': OrderedDict([('HOSTNAME', 'd0c4b089e583'), ('GIT_ASKPASS', '/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.109.5'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-96b842f8-ff13-4981-90f2-570425d902ec.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-6b6d2634-eaf6-4e07-b05f-6b733a4fd124.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X0","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-55d7247ef4.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/ros2_ws/build/teleop'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.312230] (-) TimerEvent: {}
+[1.413090] (-) TimerEvent: {}
+[1.514172] (-) TimerEvent: {}
+[1.616224] (-) TimerEvent: {}
+[1.718081] (-) TimerEvent: {}
+[1.819482] (-) TimerEvent: {}
+[1.921579] (-) TimerEvent: {}
+[2.023266] (-) TimerEvent: {}
+[2.125647] (-) TimerEvent: {}
+[2.228694] (-) TimerEvent: {}
+[2.329524] (-) TimerEvent: {}
+[2.430562] (-) TimerEvent: {}
+[2.532575] (-) TimerEvent: {}
+[2.634030] (-) TimerEvent: {}
+[2.735056] (-) TimerEvent: {}
+[2.838205] (-) TimerEvent: {}
+[2.939146] (-) TimerEvent: {}
+[2.959093] (teleop) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[3.039520] (-) TimerEvent: {}
+[3.140252] (-) TimerEvent: {}
+[3.241335] (-) TimerEvent: {}
+[3.342912] (-) TimerEvent: {}
+[3.445399] (-) TimerEvent: {}
+[3.548871] (-) TimerEvent: {}
+[3.645688] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/ros2_ws/build/py_pubsub/build', 'install', '--record', '/ros2_ws/build/py_pubsub/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/ros2_ws/src/py_pubsub', 'env': {'HOSTNAME': 'd0c4b089e583', 'GIT_ASKPASS': '/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.109.5', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-96b842f8-ff13-4981-90f2-570425d902ec.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-6b6d2634-eaf6-4e07-b05f-6b733a4fd124.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/.X11-unix/X0","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-55d7247ef4.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X0', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/ros2_ws/build/py_pubsub', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[3.673237] (-) TimerEvent: {}
+[3.774249] (-) TimerEvent: {}
+[3.844947] (teleop) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.874511] (-) TimerEvent: {}
+[3.955900] (teleop) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.974823] (-) TimerEvent: {}
+[4.077636] (-) TimerEvent: {}
+[4.178648] (-) TimerEvent: {}
+[4.279783] (-) TimerEvent: {}
+[4.382741] (-) TimerEvent: {}
+[4.484061] (-) TimerEvent: {}
+[4.585271] (-) TimerEvent: {}
+[4.687719] (-) TimerEvent: {}
+[4.794854] (-) TimerEvent: {}
+[4.989244] (-) TimerEvent: {}
+[5.090269] (-) TimerEvent: {}
+[5.192502] (-) TimerEvent: {}
+[5.297184] (-) TimerEvent: {}
+[5.398494] (-) TimerEvent: {}
+[5.471647] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[5.482058] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[5.484381] (teleop) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.495403] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[5.498812] (-) TimerEvent: {}
+[5.506408] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[5.520802] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[5.527879] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[5.573921] (teleop) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.576244] (teleop) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.577848] (teleop) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.600274] (-) TimerEvent: {}
+[5.641238] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[5.688969] (teleop) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.700841] (-) TimerEvent: {}
+[5.778013] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[5.786597] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[5.789335] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[5.801241] (-) TimerEvent: {}
+[5.902828] (-) TimerEvent: {}
+[5.941780] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[5.943515] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[6.003177] (-) TimerEvent: {}
+[6.104540] (-) TimerEvent: {}
+[6.205936] (-) TimerEvent: {}
+[6.308098] (-) TimerEvent: {}
+[6.409942] (-) TimerEvent: {}
+[6.512339] (-) TimerEvent: {}
+[6.613698] (-) TimerEvent: {}
+[6.715812] (-) TimerEvent: {}
+[6.746983] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[6.816281] (-) TimerEvent: {}
+[6.848299] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.890033] (py_pubsub) StdoutLine: {'line': b"removing '/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.916748] (-) TimerEvent: {}
+[7.016303] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info\n'}
+[7.017732] (-) TimerEvent: {}
+[7.118533] (-) TimerEvent: {}
+[7.219452] (-) TimerEvent: {}
+[7.320894] (-) TimerEvent: {}
+[7.415698] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[7.421199] (-) TimerEvent: {}
+[7.522243] (-) TimerEvent: {}
+[7.525040] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[7.526348] (teleop) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[7.549252] (py_pubsub) StdoutLine: {'line': b'Installing num_talker script to /ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[7.573199] (py_pubsub) StdoutLine: {'line': b'Installing square script to /ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[7.581381] (teleop) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[7.583185] (teleop) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[7.584826] (teleop) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[7.598204] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[7.622931] (-) TimerEvent: {}
+[7.635474] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/ros2_ws/build/py_pubsub/install.log'\n"}
+[7.694294] (py_pubsub) CommandEnded: {'returncode': 0}
+[7.723311] (-) TimerEvent: {}
+[7.727359] (teleop) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[7.824617] (-) TimerEvent: {}
+[7.925665] (-) TimerEvent: {}
+[8.027907] (-) TimerEvent: {}
+[8.030019] (teleop) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[8.128716] (-) TimerEvent: {}
+[8.204652] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[8.229235] (-) TimerEvent: {}
+[8.332620] (-) TimerEvent: {}
+[8.427948] (teleop) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[8.433078] (-) TimerEvent: {}
+[8.535313] (-) TimerEvent: {}
+[8.637469] (-) TimerEvent: {}
+[8.740801] (-) TimerEvent: {}
+[8.842139] (-) TimerEvent: {}
+[8.945491] (-) TimerEvent: {}
+[9.046402] (-) TimerEvent: {}
+[9.147712] (-) TimerEvent: {}
+[9.251114] (-) TimerEvent: {}
+[9.354628] (-) TimerEvent: {}
+[9.457648] (-) TimerEvent: {}
+[9.513058] (teleop) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[9.514171] (teleop) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[9.515086] (teleop) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[9.559897] (-) TimerEvent: {}
+[9.661618] (teleop) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.662705] (-) TimerEvent: {}
+[9.765037] (-) TimerEvent: {}
+[9.867331] (-) TimerEvent: {}
+[9.970636] (-) TimerEvent: {}
+[10.071690] (-) TimerEvent: {}
+[10.169306] (teleop) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[10.170367] (teleop) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[10.171789] (-) TimerEvent: {}
+[10.225868] (teleop) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.272677] (-) TimerEvent: {}
+[10.374997] (-) TimerEvent: {}
+[10.406089] (teleop) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.476250] (-) TimerEvent: {}
+[10.577160] (-) TimerEvent: {}
+[10.679282] (-) TimerEvent: {}
+[10.782409] (-) TimerEvent: {}
+[10.829956] (teleop) StdoutLine: {'line': b'-- Generating done\n'}
+[10.883058] (-) TimerEvent: {}
+[10.985449] (-) TimerEvent: {}
+[11.086328] (-) TimerEvent: {}
+[11.179173] (teleop) StdoutLine: {'line': b'-- Build files have been written to: /ros2_ws/build/teleop\n'}
+[11.186669] (-) TimerEvent: {}
+[11.187328] (teleop) CommandEnded: {'returncode': 0}
+[11.196067] (teleop) JobProgress: {'identifier': 'teleop', 'progress': 'build'}
+[11.208148] (teleop) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros2_ws/build/teleop', '--', '-j8', '-l8'], 'cwd': '/ros2_ws/build/teleop', 'env': OrderedDict([('HOSTNAME', 'd0c4b089e583'), ('GIT_ASKPASS', '/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.109.5'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-96b842f8-ff13-4981-90f2-570425d902ec.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-6b6d2634-eaf6-4e07-b05f-6b733a4fd124.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X0","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-55d7247ef4.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/ros2_ws/build/teleop'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[11.231893] (teleop) StderrLine: {'line': b"gmake: Warning: File 'Makefile' has modification time 1.6 s in the future\n"}
+[11.289428] (-) TimerEvent: {}
+[11.332257] (teleop) StderrLine: {'line': b"gmake[1]: Warning: File 'CMakeFiles/Makefile2' has modification time 1.6 s in the future\n"}
+[11.334499] (teleop) StderrLine: {'line': b'gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[11.349440] (teleop) StderrLine: {'line': b'gmake: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[11.354425] (teleop) CommandEnded: {'returncode': 0}
+[11.387383] (teleop) JobProgress: {'identifier': 'teleop', 'progress': 'install'}
+[11.389617] (-) TimerEvent: {}
+[11.417986] (teleop) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ros2_ws/build/teleop'], 'cwd': '/ros2_ws/build/teleop', 'env': OrderedDict([('HOSTNAME', 'd0c4b089e583'), ('GIT_ASKPASS', '/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.109.5'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-96b842f8-ff13-4981-90f2-570425d902ec.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-6b6d2634-eaf6-4e07-b05f-6b733a4fd124.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X0","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-55d7247ef4.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/ros2_ws/build/teleop'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[11.441483] (teleop) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.489816] (-) TimerEvent: {}
+[11.496217] (teleop) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/teleop/share/ament_index/resource_index/package_run_dependencies/teleop\n'}
+[11.590049] (-) TimerEvent: {}
+[11.637136] (teleop) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/teleop/share/ament_index/resource_index/parent_prefix_path/teleop\n'}
+[11.692887] (-) TimerEvent: {}
+[11.745876] (teleop) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/teleop/share/teleop/environment/ament_prefix_path.sh\n'}
+[11.793392] (-) TimerEvent: {}
+[11.828284] (teleop) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/teleop/share/teleop/environment/ament_prefix_path.dsv\n'}
+[11.893804] (-) TimerEvent: {}
+[11.899052] (teleop) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/teleop/share/teleop/environment/path.sh\n'}
+[11.975792] (teleop) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/teleop/share/teleop/environment/path.dsv\n'}
+[11.994051] (-) TimerEvent: {}
+[12.057713] (teleop) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/teleop/share/teleop/local_setup.bash\n'}
+[12.094618] (-) TimerEvent: {}
+[12.140886] (teleop) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/teleop/share/teleop/local_setup.sh\n'}
+[12.194809] (-) TimerEvent: {}
+[12.208025] (teleop) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/teleop/share/teleop/local_setup.zsh\n'}
+[12.288042] (teleop) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/teleop/share/teleop/local_setup.dsv\n'}
+[12.295383] (-) TimerEvent: {}
+[12.356977] (teleop) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/teleop/share/teleop/package.dsv\n'}
+[12.395798] (-) TimerEvent: {}
+[12.461249] (teleop) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/teleop/share/ament_index/resource_index/packages/teleop\n'}
+[12.497182] (-) TimerEvent: {}
+[12.571195] (teleop) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/teleop/share/teleop/cmake/teleopConfig.cmake\n'}
+[12.597330] (-) TimerEvent: {}
+[12.650106] (teleop) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/teleop/share/teleop/cmake/teleopConfig-version.cmake\n'}
+[12.699803] (-) TimerEvent: {}
+[12.748940] (teleop) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/teleop/share/teleop/package.xml\n'}
+[12.802029] (-) TimerEvent: {}
+[12.810034] (teleop) CommandEnded: {'returncode': 0}
+[12.902326] (-) TimerEvent: {}
+[13.002943] (-) TimerEvent: {}
+[13.104076] (-) TimerEvent: {}
+[13.205774] (-) TimerEvent: {}
+[13.308339] (-) TimerEvent: {}
+[13.409327] (-) TimerEvent: {}
+[13.510453] (-) TimerEvent: {}
+[13.586585] (teleop) JobEnded: {'identifier': 'teleop', 'rc': 0}
+[13.603929] (-) EventReactorShutdown: {}

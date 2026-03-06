@@ -1,0 +1,43 @@
+[0.000000] (-) TimerEvent: {}
+[0.000594] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.001016] (teleop) JobQueued: {'identifier': 'teleop', 'dependencies': OrderedDict()}
+[0.001437] (teleop) JobStarted: {'identifier': 'teleop'}
+[0.041845] (teleop) JobProgress: {'identifier': 'teleop', 'progress': 'cmake'}
+[0.077078] (teleop) JobProgress: {'identifier': 'teleop', 'progress': 'build'}
+[0.085222] (teleop) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros2_ws/src/build/teleop', '--', '-j8', '-l8'], 'cwd': '/ros2_ws/src/build/teleop', 'env': OrderedDict([('HOSTNAME', '770f70bd9264'), ('GIT_ASKPASS', '/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/ros2_ws'), ('TERM_PROGRAM_VERSION', '1.109.5'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-065b6671-d98a-48bd-972d-5367dc519897.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-12618d3b-6328-4670-bccd-9c3c6886d590.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X0","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-1d9b5b8cf2.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/ros2_ws/src/build/teleop'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.109372] (-) TimerEvent: {}
+[0.210213] (-) TimerEvent: {}
+[0.311006] (-) TimerEvent: {}
+[0.412158] (-) TimerEvent: {}
+[0.513996] (-) TimerEvent: {}
+[0.532606] (teleop) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/qbot_platform_driver_interface.dir/src/qbot_platform_driver_interface.cpp.o\x1b[0m\n'}
+[0.546333] (teleop) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/command.dir/src/command.cpp.o\x1b[0m\n'}
+[0.614220] (-) TimerEvent: {}
+[0.718503] (-) TimerEvent: {}
+[0.819487] (-) TimerEvent: {}
+[0.920569] (-) TimerEvent: {}
+[1.021879] (-) TimerEvent: {}
+[1.123067] (-) TimerEvent: {}
+[1.152954] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/teleop/src/qbot_platform_driver_interface.cpp:38:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kquanser/quanser_persistent_stream.h: No such file or directory\n'}
+[1.154890] (teleop) StderrLine: {'line': b'   38 | #include \x1b[01;31m\x1b[K"quanser/quanser_persistent_stream.h"\x1b[m\x1b[K\n'}
+[1.156698] (teleop) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.159208] (teleop) StderrLine: {'line': b'compilation terminated.\n'}
+[1.161144] (teleop) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/qbot_platform_driver_interface.dir/build.make:76: CMakeFiles/qbot_platform_driver_interface.dir/src/qbot_platform_driver_interface.cpp.o] Error 1\n'}
+[1.163540] (teleop) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/qbot_platform_driver_interface.dir/all] Error 2\n'}
+[1.167362] (teleop) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[1.187145] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/teleop/src/command.cpp:30:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kquanser/quanser_messages.h: No such file or directory\n'}
+[1.188642] (teleop) StderrLine: {'line': b'   30 | #include \x1b[01;31m\x1b[K"quanser/quanser_messages.h"\x1b[m\x1b[K\n'}
+[1.190205] (teleop) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.191586] (teleop) StderrLine: {'line': b'compilation terminated.\n'}
+[1.193970] (teleop) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/command.dir/build.make:76: CMakeFiles/command.dir/src/command.cpp.o] Error 1\n'}
+[1.198175] (teleop) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/command.dir/all] Error 2\n'}
+[1.201866] (teleop) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[1.204663] (teleop) CommandEnded: {'returncode': 2}
+[1.223246] (-) TimerEvent: {}
+[1.324192] (-) TimerEvent: {}
+[1.425762] (-) TimerEvent: {}
+[1.530934] (-) TimerEvent: {}
+[1.632243] (-) TimerEvent: {}
+[1.710275] (teleop) JobEnded: {'identifier': 'teleop', 'rc': 2}
+[1.751145] (-) TimerEvent: {}
+[1.751846] (-) EventReactorShutdown: {}

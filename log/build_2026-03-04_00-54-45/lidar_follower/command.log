@@ -1,0 +1,6 @@
+Invoking command in '/ros2_ws/build/lidar_follower': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ros2_ws/src/lidar_follower -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/lidar_follower
+Invoked command in '/ros2_ws/build/lidar_follower' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ros2_ws/src/lidar_follower -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/lidar_follower
+Invoking command in '/ros2_ws/build/lidar_follower': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/lidar_follower -- -j8 -l8
+Invoked command in '/ros2_ws/build/lidar_follower' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/lidar_follower -- -j8 -l8
+Invoking command in '/ros2_ws/build/lidar_follower': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/lidar_follower
+Invoked command in '/ros2_ws/build/lidar_follower' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/lidar_follower

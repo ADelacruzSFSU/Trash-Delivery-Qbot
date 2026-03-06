@@ -1,0 +1,51 @@
+[1.136s] Invoking command in '/ros2_ws/build/teleop': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ros2_ws/src/teleop -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/teleop
+[2.837s] -- The C compiler identification is GNU 11.4.0
+[3.719s] -- The CXX compiler identification is GNU 11.4.0
+[3.830s] -- Detecting C compiler ABI info
+[5.358s] -- Detecting C compiler ABI info - done
+[5.448s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.450s] -- Detecting C compile features
+[5.452s] -- Detecting C compile features - done
+[5.563s] -- Detecting CXX compiler ABI info
+[7.400s] -- Detecting CXX compiler ABI info - done
+[7.455s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[7.457s] -- Detecting CXX compile features
+[7.459s] -- Detecting CXX compile features - done
+[7.601s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.904s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[8.302s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.387s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.388s] -- Configured cppcheck include dirs: 
+[9.389s] -- Configured cppcheck exclude dirs and/or files: 
+[9.535s] -- Added test 'lint_cmake' to check CMake code style
+[10.043s] -- Added test 'uncrustify' to check C / C++ code style
+[10.044s] -- Configured uncrustify additional arguments: 
+[10.099s] -- Added test 'xmllint' to check XML markup files
+[10.280s] -- Configuring done
+[10.704s] -- Generating done
+[11.053s] -- Build files have been written to: /ros2_ws/build/teleop
+[11.061s] Invoked command in '/ros2_ws/build/teleop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ros2_ws/src/teleop -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/teleop
+[11.082s] Invoking command in '/ros2_ws/build/teleop': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/teleop -- -j8 -l8
+[11.106s] gmake: Warning: File 'Makefile' has modification time 1.6 s in the future
+[11.207s] gmake[1]: Warning: File 'CMakeFiles/Makefile2' has modification time 1.6 s in the future
+[11.208s] gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+[11.224s] gmake: warning:  Clock skew detected.  Your build may be incomplete.
+[11.228s] Invoked command in '/ros2_ws/build/teleop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/teleop -- -j8 -l8
+[11.293s] Invoking command in '/ros2_ws/build/teleop': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/teleop
+[11.316s] -- Install configuration: ""
+[11.370s] -- Installing: /ros2_ws/install/teleop/share/ament_index/resource_index/package_run_dependencies/teleop
+[11.511s] -- Installing: /ros2_ws/install/teleop/share/ament_index/resource_index/parent_prefix_path/teleop
+[11.619s] -- Installing: /ros2_ws/install/teleop/share/teleop/environment/ament_prefix_path.sh
+[11.702s] -- Installing: /ros2_ws/install/teleop/share/teleop/environment/ament_prefix_path.dsv
+[11.773s] -- Installing: /ros2_ws/install/teleop/share/teleop/environment/path.sh
+[11.850s] -- Installing: /ros2_ws/install/teleop/share/teleop/environment/path.dsv
+[11.932s] -- Installing: /ros2_ws/install/teleop/share/teleop/local_setup.bash
+[12.014s] -- Installing: /ros2_ws/install/teleop/share/teleop/local_setup.sh
+[12.082s] -- Installing: /ros2_ws/install/teleop/share/teleop/local_setup.zsh
+[12.162s] -- Installing: /ros2_ws/install/teleop/share/teleop/local_setup.dsv
+[12.231s] -- Installing: /ros2_ws/install/teleop/share/teleop/package.dsv
+[12.335s] -- Installing: /ros2_ws/install/teleop/share/ament_index/resource_index/packages/teleop
+[12.445s] -- Installing: /ros2_ws/install/teleop/share/teleop/cmake/teleopConfig.cmake
+[12.524s] -- Installing: /ros2_ws/install/teleop/share/teleop/cmake/teleopConfig-version.cmake
+[12.623s] -- Installing: /ros2_ws/install/teleop/share/teleop/package.xml
+[12.684s] Invoked command in '/ros2_ws/build/teleop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/teleop

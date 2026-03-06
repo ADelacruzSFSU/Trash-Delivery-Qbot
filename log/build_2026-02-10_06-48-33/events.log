@@ -1,0 +1,100 @@
+[0.000000] (-) TimerEvent: {}
+[0.001404] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.001944] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.095895] (-) TimerEvent: {}
+[0.196756] (-) TimerEvent: {}
+[0.298011] (-) TimerEvent: {}
+[0.398921] (-) TimerEvent: {}
+[0.499876] (-) TimerEvent: {}
+[0.600968] (-) TimerEvent: {}
+[0.703268] (-) TimerEvent: {}
+[0.804105] (-) TimerEvent: {}
+[0.904917] (-) TimerEvent: {}
+[1.005552] (-) TimerEvent: {}
+[1.106293] (-) TimerEvent: {}
+[1.207221] (-) TimerEvent: {}
+[1.308017] (-) TimerEvent: {}
+[1.408776] (-) TimerEvent: {}
+[1.509444] (-) TimerEvent: {}
+[1.610385] (-) TimerEvent: {}
+[1.711172] (-) TimerEvent: {}
+[1.811879] (-) TimerEvent: {}
+[1.912758] (-) TimerEvent: {}
+[2.013474] (-) TimerEvent: {}
+[2.114304] (-) TimerEvent: {}
+[2.215157] (-) TimerEvent: {}
+[2.316188] (-) TimerEvent: {}
+[2.335920] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/ros2_ws/build/py_pubsub/build', 'install', '--record', '/ros2_ws/build/py_pubsub/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/ros2_ws/src/py_pubsub', 'env': {'HOSTNAME': '45f9e8245f8a', 'GIT_ASKPASS': '/root/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/root/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/ros2_ws/src/py_pubsub', 'TERM_PROGRAM_VERSION': '1.107.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-4e8e384c-e174-4592-a518-c03817776232.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-2e6a9596-f44a-4af2-88da-6d2f711c1777.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/.X11-unix/X1","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-0bad09f8b1.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X1', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/ros2_ws/build/py_pubsub', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[2.416319] (-) TimerEvent: {}
+[2.517193] (-) TimerEvent: {}
+[2.617879] (-) TimerEvent: {}
+[2.718685] (-) TimerEvent: {}
+[2.819766] (-) TimerEvent: {}
+[2.920443] (-) TimerEvent: {}
+[3.021499] (-) TimerEvent: {}
+[3.123450] (-) TimerEvent: {}
+[3.224519] (-) TimerEvent: {}
+[3.325662] (-) TimerEvent: {}
+[3.426430] (-) TimerEvent: {}
+[3.458342] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[3.466332] (py_pubsub) StdoutLine: {'line': b'creating ../../build/py_pubsub/py_pubsub.egg-info\n'}
+[3.483162] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[3.501674] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[3.512757] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[3.522317] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[3.526486] (-) TimerEvent: {}
+[3.530581] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[3.542904] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[3.603395] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[3.626558] (-) TimerEvent: {}
+[3.685106] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[3.692119] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[3.694026] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[3.703087] (py_pubsub) StdoutLine: {'line': b'creating /ros2_ws/build/py_pubsub/build\n'}
+[3.707069] (py_pubsub) StdoutLine: {'line': b'creating /ros2_ws/build/py_pubsub/build/lib\n'}
+[3.711429] (py_pubsub) StdoutLine: {'line': b'creating /ros2_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[3.726664] (-) TimerEvent: {}
+[3.728486] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/publisher_member_function.py -> /ros2_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[3.765489] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/subscriber_member_function.py -> /ros2_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[3.796966] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/__init__.py -> /ros2_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[3.823373] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[3.824910] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[3.826735] (-) TimerEvent: {}
+[3.867401] (py_pubsub) StdoutLine: {'line': b'creating /ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[3.896703] (py_pubsub) StdoutLine: {'line': b'copying /ros2_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[3.926923] (-) TimerEvent: {}
+[3.957221] (py_pubsub) StdoutLine: {'line': b'copying /ros2_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[4.012291] (py_pubsub) StdoutLine: {'line': b'copying /ros2_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[4.027084] (-) TimerEvent: {}
+[4.065016] (py_pubsub) StdoutLine: {'line': b'byte-compiling /ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-310.pyc\n'}
+[4.122348] (py_pubsub) StdoutLine: {'line': b'byte-compiling /ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc\n'}
+[4.127254] (-) TimerEvent: {}
+[4.185558] (py_pubsub) StdoutLine: {'line': b'byte-compiling /ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py to __init__.cpython-310.pyc\n'}
+[4.227452] (-) TimerEvent: {}
+[4.231520] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[4.244414] (py_pubsub) StdoutLine: {'line': b'creating /ros2_ws/install/py_pubsub/share/ament_index\n'}
+[4.249157] (py_pubsub) StdoutLine: {'line': b'creating /ros2_ws/install/py_pubsub/share/ament_index/resource_index\n'}
+[4.256698] (py_pubsub) StdoutLine: {'line': b'creating /ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages\n'}
+[4.275826] (py_pubsub) StdoutLine: {'line': b'copying resource/py_pubsub -> /ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages\n'}
+[4.315650] (py_pubsub) StdoutLine: {'line': b'copying package.xml -> /ros2_ws/install/py_pubsub/share/py_pubsub\n'}
+[4.327619] (-) TimerEvent: {}
+[4.334922] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.363105] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info\n'}
+[4.427740] (-) TimerEvent: {}
+[4.528701] (-) TimerEvent: {}
+[4.629588] (-) TimerEvent: {}
+[4.730152] (-) TimerEvent: {}
+[4.831234] (-) TimerEvent: {}
+[4.864544] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[4.931389] (-) TimerEvent: {}
+[4.979135] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[4.996437] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[5.024910] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/ros2_ws/build/py_pubsub/install.log'\n"}
+[5.031555] (-) TimerEvent: {}
+[5.077468] (py_pubsub) CommandEnded: {'returncode': 0}
+[5.131691] (-) TimerEvent: {}
+[5.232615] (-) TimerEvent: {}
+[5.333558] (-) TimerEvent: {}
+[5.434357] (-) TimerEvent: {}
+[5.506572] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[5.527623] (-) EventReactorShutdown: {}

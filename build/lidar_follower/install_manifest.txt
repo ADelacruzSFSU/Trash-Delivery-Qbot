@@ -1,0 +1,16 @@
+/ros2_ws/install/lidar_follower/lib/lidar_follower/follower_lidar
+/ros2_ws/install/lidar_follower/share/ament_index/resource_index/package_run_dependencies/lidar_follower
+/ros2_ws/install/lidar_follower/share/ament_index/resource_index/parent_prefix_path/lidar_follower
+/ros2_ws/install/lidar_follower/share/lidar_follower/environment/ament_prefix_path.sh
+/ros2_ws/install/lidar_follower/share/lidar_follower/environment/ament_prefix_path.dsv
+/ros2_ws/install/lidar_follower/share/lidar_follower/environment/path.sh
+/ros2_ws/install/lidar_follower/share/lidar_follower/environment/path.dsv
+/ros2_ws/install/lidar_follower/share/lidar_follower/local_setup.bash
+/ros2_ws/install/lidar_follower/share/lidar_follower/local_setup.sh
+/ros2_ws/install/lidar_follower/share/lidar_follower/local_setup.zsh
+/ros2_ws/install/lidar_follower/share/lidar_follower/local_setup.dsv
+/ros2_ws/install/lidar_follower/share/lidar_follower/package.dsv
+/ros2_ws/install/lidar_follower/share/ament_index/resource_index/packages/lidar_follower
+/ros2_ws/install/lidar_follower/share/lidar_follower/cmake/lidar_followerConfig.cmake
+/ros2_ws/install/lidar_follower/share/lidar_follower/cmake/lidar_followerConfig-version.cmake
+/ros2_ws/install/lidar_follower/share/lidar_follower/package.xml

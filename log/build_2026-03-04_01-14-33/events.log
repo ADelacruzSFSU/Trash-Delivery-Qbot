@@ -1,0 +1,5 @@
+[0.000000] (-) TimerEvent: {}
+[0.000893] (-) JobUnselected: {'identifier': 'lidar_follower'}
+[0.001183] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.001471] (-) JobUnselected: {'identifier': 'teleop'}
+[0.001850] (-) EventReactorShutdown: {}

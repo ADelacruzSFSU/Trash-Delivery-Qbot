@@ -1,0 +1,181 @@
+[0.000000] (-) TimerEvent: {}
+[0.001847] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.002329] (-) JobUnselected: {'identifier': 'teleop'}
+[0.002693] (lidar_follower) JobQueued: {'identifier': 'lidar_follower', 'dependencies': OrderedDict()}
+[0.003072] (lidar_follower) JobStarted: {'identifier': 'lidar_follower'}
+[0.097585] (-) TimerEvent: {}
+[0.179154] (lidar_follower) JobProgress: {'identifier': 'lidar_follower', 'progress': 'cmake'}
+[0.197734] (-) TimerEvent: {}
+[0.212253] (lidar_follower) JobProgress: {'identifier': 'lidar_follower', 'progress': 'build'}
+[0.222895] (lidar_follower) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros2_ws/build/lidar_follower', '--', '-j8', '-l8'], 'cwd': '/ros2_ws/build/lidar_follower', 'env': OrderedDict([('HOSTNAME', '770f70bd9264'), ('GIT_ASKPASS', '/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/ros2_ws'), ('TERM_PROGRAM_VERSION', '1.109.5'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-065b6671-d98a-48bd-972d-5367dc519897.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-12618d3b-6328-4670-bccd-9c3c6886d590.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X0","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-1d9b5b8cf2.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/ros2_ws/install/teleop:/ros2_ws/install/py_pubsub:/ros2_ws/install/lidar_follower:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/ros2_ws/build/lidar_follower'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros2_ws/install/teleop:/ros2_ws/install/lidar_follower:/ros2_ws/install/py_pubsub:/opt/ros/humble')]), 'shell': False}
+[0.297861] (-) TimerEvent: {}
+[0.398749] (-) TimerEvent: {}
+[0.499846] (-) TimerEvent: {}
+[0.601014] (-) TimerEvent: {}
+[0.648901] (lidar_follower) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.701137] (-) TimerEvent: {}
+[0.801926] (-) TimerEvent: {}
+[0.902615] (-) TimerEvent: {}
+[1.003533] (-) TimerEvent: {}
+[1.104319] (-) TimerEvent: {}
+[1.205280] (-) TimerEvent: {}
+[1.306077] (-) TimerEvent: {}
+[1.406843] (-) TimerEvent: {}
+[1.507773] (-) TimerEvent: {}
+[1.539205] (lidar_follower) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.607991] (-) TimerEvent: {}
+[1.680697] (lidar_follower) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.686677] (lidar_follower) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.698280] (lidar_follower) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.708184] (-) TimerEvent: {}
+[1.737968] (lidar_follower) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.777862] (lidar_follower) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.808384] (-) TimerEvent: {}
+[1.894942] (lidar_follower) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.908565] (-) TimerEvent: {}
+[1.911865] (lidar_follower) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.008726] (-) TimerEvent: {}
+[2.109647] (-) TimerEvent: {}
+[2.211427] (-) TimerEvent: {}
+[2.312521] (-) TimerEvent: {}
+[2.413519] (-) TimerEvent: {}
+[2.514436] (-) TimerEvent: {}
+[2.615416] (-) TimerEvent: {}
+[2.716324] (-) TimerEvent: {}
+[2.817197] (-) TimerEvent: {}
+[2.918164] (-) TimerEvent: {}
+[3.019036] (-) TimerEvent: {}
+[3.120128] (-) TimerEvent: {}
+[3.228603] (-) TimerEvent: {}
+[3.329756] (-) TimerEvent: {}
+[3.430744] (-) TimerEvent: {}
+[3.531913] (-) TimerEvent: {}
+[3.633644] (-) TimerEvent: {}
+[3.734573] (-) TimerEvent: {}
+[3.837136] (-) TimerEvent: {}
+[3.937977] (-) TimerEvent: {}
+[4.070681] (-) TimerEvent: {}
+[4.158849] (lidar_follower) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.170902] (-) TimerEvent: {}
+[4.277451] (-) TimerEvent: {}
+[4.379909] (-) TimerEvent: {}
+[4.434876] (lidar_follower) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[4.480137] (-) TimerEvent: {}
+[4.547241] (lidar_follower) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.580308] (-) TimerEvent: {}
+[4.681352] (-) TimerEvent: {}
+[4.782296] (-) TimerEvent: {}
+[4.883283] (-) TimerEvent: {}
+[4.985844] (-) TimerEvent: {}
+[5.090153] (-) TimerEvent: {}
+[5.191322] (-) TimerEvent: {}
+[5.292193] (-) TimerEvent: {}
+[5.393246] (-) TimerEvent: {}
+[5.494170] (-) TimerEvent: {}
+[5.599056] (-) TimerEvent: {}
+[5.699944] (-) TimerEvent: {}
+[5.800951] (-) TimerEvent: {}
+[5.901860] (-) TimerEvent: {}
+[6.004137] (-) TimerEvent: {}
+[6.105250] (-) TimerEvent: {}
+[6.206104] (-) TimerEvent: {}
+[6.306955] (-) TimerEvent: {}
+[6.332848] (lidar_follower) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.334952] (lidar_follower) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[6.336646] (lidar_follower) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.407116] (-) TimerEvent: {}
+[6.409044] (lidar_follower) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[6.507307] (-) TimerEvent: {}
+[6.606855] (lidar_follower) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.608726] (-) TimerEvent: {}
+[6.680674] (lidar_follower) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[6.708907] (-) TimerEvent: {}
+[6.809709] (-) TimerEvent: {}
+[6.910512] (-) TimerEvent: {}
+[7.011553] (-) TimerEvent: {}
+[7.112442] (-) TimerEvent: {}
+[7.213378] (-) TimerEvent: {}
+[7.314339] (-) TimerEvent: {}
+[7.340557] (lidar_follower) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[7.342307] (lidar_follower) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[7.414520] (-) TimerEvent: {}
+[7.416576] (lidar_follower) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.514689] (-) TimerEvent: {}
+[7.530977] (lidar_follower) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.614864] (-) TimerEvent: {}
+[7.715725] (-) TimerEvent: {}
+[7.816936] (-) TimerEvent: {}
+[7.917843] (-) TimerEvent: {}
+[8.019093] (-) TimerEvent: {}
+[8.120123] (-) TimerEvent: {}
+[8.221893] (-) TimerEvent: {}
+[8.251303] (lidar_follower) StdoutLine: {'line': b'-- Generating done\n'}
+[8.322108] (-) TimerEvent: {}
+[8.422971] (-) TimerEvent: {}
+[8.523866] (-) TimerEvent: {}
+[8.624769] (-) TimerEvent: {}
+[8.685506] (lidar_follower) StdoutLine: {'line': b'-- Build files have been written to: /ros2_ws/build/lidar_follower\n'}
+[8.724974] (-) TimerEvent: {}
+[8.805701] (lidar_follower) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target follower_lidar\x1b[0m\n'}
+[8.825150] (-) TimerEvent: {}
+[8.925940] (-) TimerEvent: {}
+[9.026731] (-) TimerEvent: {}
+[9.127449] (-) TimerEvent: {}
+[9.228183] (-) TimerEvent: {}
+[9.328932] (-) TimerEvent: {}
+[9.429786] (-) TimerEvent: {}
+[9.530738] (-) TimerEvent: {}
+[9.540826] (lidar_follower) StdoutLine: {'line': b'[100%] Built target follower_lidar\n'}
+[9.586563] (lidar_follower) CommandEnded: {'returncode': 0}
+[9.615129] (lidar_follower) JobProgress: {'identifier': 'lidar_follower', 'progress': 'install'}
+[9.630910] (-) TimerEvent: {}
+[9.633648] (lidar_follower) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ros2_ws/build/lidar_follower'], 'cwd': '/ros2_ws/build/lidar_follower', 'env': OrderedDict([('HOSTNAME', '770f70bd9264'), ('GIT_ASKPASS', '/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/ros2_ws'), ('TERM_PROGRAM_VERSION', '1.109.5'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-065b6671-d98a-48bd-972d-5367dc519897.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-12618d3b-6328-4670-bccd-9c3c6886d590.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X0","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-1d9b5b8cf2.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/ros2_ws/install/teleop:/ros2_ws/install/py_pubsub:/ros2_ws/install/lidar_follower:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/ros2_ws/build/lidar_follower'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros2_ws/install/teleop:/ros2_ws/install/lidar_follower:/ros2_ws/install/py_pubsub:/opt/ros/humble')]), 'shell': False}
+[9.655424] (lidar_follower) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.723788] (lidar_follower) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/lidar_follower/lib/lidar_follower/follower_lidar\n'}
+[9.730990] (-) TimerEvent: {}
+[9.826783] (lidar_follower) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/lidar_follower/lib/lidar_follower/fake_scan.py\n'}
+[9.831162] (-) TimerEvent: {}
+[9.931964] (-) TimerEvent: {}
+[9.987877] (lidar_follower) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/lidar_follower/share/ament_index/resource_index/package_run_dependencies/lidar_follower\n'}
+[10.032083] (-) TimerEvent: {}
+[10.047066] (lidar_follower) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/lidar_follower/share/ament_index/resource_index/parent_prefix_path/lidar_follower\n'}
+[10.132213] (-) TimerEvent: {}
+[10.193583] (lidar_follower) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/lidar_follower/share/lidar_follower/environment/ament_prefix_path.sh\n'}
+[10.232415] (-) TimerEvent: {}
+[10.267013] (lidar_follower) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/lidar_follower/share/lidar_follower/environment/ament_prefix_path.dsv\n'}
+[10.332621] (-) TimerEvent: {}
+[10.433761] (-) TimerEvent: {}
+[10.527551] (lidar_follower) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/lidar_follower/share/lidar_follower/environment/path.sh\n'}
+[10.534506] (-) TimerEvent: {}
+[10.606608] (lidar_follower) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/lidar_follower/share/lidar_follower/environment/path.dsv\n'}
+[10.634739] (-) TimerEvent: {}
+[10.735905] (-) TimerEvent: {}
+[10.768295] (lidar_follower) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/lidar_follower/share/lidar_follower/local_setup.bash\n'}
+[10.803549] (lidar_follower) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/lidar_follower/share/lidar_follower/local_setup.sh\n'}
+[10.836815] (-) TimerEvent: {}
+[10.841149] (lidar_follower) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/lidar_follower/share/lidar_follower/local_setup.zsh\n'}
+[10.879289] (lidar_follower) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/lidar_follower/share/lidar_follower/local_setup.dsv\n'}
+[10.937743] (-) TimerEvent: {}
+[11.003450] (lidar_follower) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/lidar_follower/share/lidar_follower/package.dsv\n'}
+[11.038356] (-) TimerEvent: {}
+[11.140233] (-) TimerEvent: {}
+[11.144923] (lidar_follower) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/lidar_follower/share/ament_index/resource_index/packages/lidar_follower\n'}
+[11.187764] (lidar_follower) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/lidar_follower/share/lidar_follower/cmake/lidar_followerConfig.cmake\n'}
+[11.219158] (lidar_follower) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/lidar_follower/share/lidar_follower/cmake/lidar_followerConfig-version.cmake\n'}
+[11.240884] (-) TimerEvent: {}
+[11.258380] (lidar_follower) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/lidar_follower/share/lidar_follower/package.xml\n'}
+[11.277933] (lidar_follower) CommandEnded: {'returncode': 0}
+[11.341978] (-) TimerEvent: {}
+[11.443745] (-) TimerEvent: {}
+[11.545619] (-) TimerEvent: {}
+[11.646789] (-) TimerEvent: {}
+[11.749078] (-) TimerEvent: {}
+[11.850610] (-) TimerEvent: {}
+[11.951734] (-) TimerEvent: {}
+[12.053182] (-) TimerEvent: {}
+[12.154873] (-) TimerEvent: {}
+[12.255904] (-) TimerEvent: {}
+[12.357099] (-) TimerEvent: {}
+[12.458376] (-) TimerEvent: {}
+[12.500169] (lidar_follower) JobEnded: {'identifier': 'lidar_follower', 'rc': 0}
+[12.518265] (-) EventReactorShutdown: {}

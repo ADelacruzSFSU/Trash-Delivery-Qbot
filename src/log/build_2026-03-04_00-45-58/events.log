@@ -1,0 +1,247 @@
+[0.000000] (-) TimerEvent: {}
+[0.007240] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.007761] (teleop) JobQueued: {'identifier': 'teleop', 'dependencies': OrderedDict()}
+[0.008149] (teleop) JobStarted: {'identifier': 'teleop'}
+[0.092641] (-) TimerEvent: {}
+[0.140329] (teleop) JobProgress: {'identifier': 'teleop', 'progress': 'cmake'}
+[0.192885] (-) TimerEvent: {}
+[0.207941] (teleop) Command: {'cmd': ['/usr/bin/cmake', '/ros2_ws/src/teleop', '-DCMAKE_INSTALL_PREFIX=/ros2_ws/src/install/teleop'], 'cwd': '/ros2_ws/src/build/teleop', 'env': OrderedDict([('HOSTNAME', '770f70bd9264'), ('GIT_ASKPASS', '/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/ros2_ws'), ('TERM_PROGRAM_VERSION', '1.109.5'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-065b6671-d98a-48bd-972d-5367dc519897.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-12618d3b-6328-4670-bccd-9c3c6886d590.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X0","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-1d9b5b8cf2.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/ros2_ws/src/build/teleop'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.293130] (-) TimerEvent: {}
+[0.394410] (-) TimerEvent: {}
+[0.495306] (-) TimerEvent: {}
+[0.596343] (-) TimerEvent: {}
+[0.697304] (-) TimerEvent: {}
+[0.798376] (-) TimerEvent: {}
+[0.899765] (-) TimerEvent: {}
+[1.000791] (-) TimerEvent: {}
+[1.101786] (-) TimerEvent: {}
+[1.132816] (teleop) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.202008] (-) TimerEvent: {}
+[1.302992] (-) TimerEvent: {}
+[1.403896] (-) TimerEvent: {}
+[1.504819] (-) TimerEvent: {}
+[1.605766] (-) TimerEvent: {}
+[1.620008] (teleop) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.706004] (-) TimerEvent: {}
+[1.759998] (teleop) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.806213] (-) TimerEvent: {}
+[1.907195] (-) TimerEvent: {}
+[2.009376] (-) TimerEvent: {}
+[2.112822] (-) TimerEvent: {}
+[2.213880] (-) TimerEvent: {}
+[2.317591] (-) TimerEvent: {}
+[2.424834] (-) TimerEvent: {}
+[2.525739] (-) TimerEvent: {}
+[2.626857] (-) TimerEvent: {}
+[2.728718] (-) TimerEvent: {}
+[2.829782] (-) TimerEvent: {}
+[2.931084] (-) TimerEvent: {}
+[3.032423] (-) TimerEvent: {}
+[3.133539] (-) TimerEvent: {}
+[3.235096] (-) TimerEvent: {}
+[3.235864] (teleop) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.298053] (teleop) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.300188] (teleop) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.301971] (teleop) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.335360] (-) TimerEvent: {}
+[3.418372] (teleop) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.435571] (-) TimerEvent: {}
+[3.536698] (-) TimerEvent: {}
+[3.637920] (-) TimerEvent: {}
+[3.741416] (-) TimerEvent: {}
+[3.842399] (-) TimerEvent: {}
+[3.943353] (-) TimerEvent: {}
+[4.046375] (-) TimerEvent: {}
+[4.172653] (-) TimerEvent: {}
+[4.274467] (-) TimerEvent: {}
+[4.375428] (-) TimerEvent: {}
+[4.476631] (-) TimerEvent: {}
+[4.578002] (-) TimerEvent: {}
+[4.679152] (-) TimerEvent: {}
+[4.781141] (-) TimerEvent: {}
+[4.868174] (teleop) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.881411] (-) TimerEvent: {}
+[4.966347] (teleop) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.968721] (teleop) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.973258] (teleop) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.981645] (-) TimerEvent: {}
+[5.082981] (-) TimerEvent: {}
+[5.176762] (teleop) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[5.183174] (-) TimerEvent: {}
+[5.284162] (-) TimerEvent: {}
+[5.385028] (-) TimerEvent: {}
+[5.486411] (-) TimerEvent: {}
+[5.559813] (teleop) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[5.586648] (-) TimerEvent: {}
+[5.687742] (-) TimerEvent: {}
+[5.789218] (-) TimerEvent: {}
+[5.890202] (-) TimerEvent: {}
+[5.991160] (-) TimerEvent: {}
+[6.095422] (-) TimerEvent: {}
+[6.151242] (teleop) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[6.195553] (-) TimerEvent: {}
+[6.296395] (-) TimerEvent: {}
+[6.326734] (teleop) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[6.344502] (teleop) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.371559] (teleop) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[6.396587] (-) TimerEvent: {}
+[6.428079] (teleop) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.480279] (teleop) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.496787] (-) TimerEvent: {}
+[6.597962] (-) TimerEvent: {}
+[6.648595] (teleop) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[6.661636] (teleop) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[6.698130] (-) TimerEvent: {}
+[6.799391] (-) TimerEvent: {}
+[6.900231] (-) TimerEvent: {}
+[6.966512] (teleop) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[7.000404] (-) TimerEvent: {}
+[7.051396] (teleop) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[7.100615] (-) TimerEvent: {}
+[7.169339] (teleop) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.200844] (-) TimerEvent: {}
+[7.287197] (teleop) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[7.301043] (-) TimerEvent: {}
+[7.402019] (-) TimerEvent: {}
+[7.503048] (-) TimerEvent: {}
+[7.611415] (-) TimerEvent: {}
+[7.716921] (-) TimerEvent: {}
+[7.820470] (-) TimerEvent: {}
+[7.922986] (-) TimerEvent: {}
+[8.024013] (-) TimerEvent: {}
+[8.124994] (-) TimerEvent: {}
+[8.226011] (-) TimerEvent: {}
+[8.327057] (-) TimerEvent: {}
+[8.428165] (-) TimerEvent: {}
+[8.529231] (-) TimerEvent: {}
+[8.630244] (-) TimerEvent: {}
+[8.731246] (-) TimerEvent: {}
+[8.822675] (teleop) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[8.831433] (-) TimerEvent: {}
+[8.854080] (teleop) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[8.931675] (-) TimerEvent: {}
+[9.035350] (-) TimerEvent: {}
+[9.141308] (-) TimerEvent: {}
+[9.242329] (-) TimerEvent: {}
+[9.343383] (-) TimerEvent: {}
+[9.445188] (-) TimerEvent: {}
+[9.546586] (-) TimerEvent: {}
+[9.647702] (-) TimerEvent: {}
+[9.750341] (-) TimerEvent: {}
+[9.900894] (-) TimerEvent: {}
+[10.002782] (-) TimerEvent: {}
+[10.104442] (-) TimerEvent: {}
+[10.205290] (-) TimerEvent: {}
+[10.306139] (-) TimerEvent: {}
+[10.390859] (teleop) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[10.401467] (teleop) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[10.406357] (-) TimerEvent: {}
+[10.512639] (-) TimerEvent: {}
+[10.617587] (-) TimerEvent: {}
+[10.648858] (teleop) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[10.717776] (-) TimerEvent: {}
+[10.725309] (teleop) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[10.817954] (-) TimerEvent: {}
+[10.918949] (-) TimerEvent: {}
+[11.019963] (-) TimerEvent: {}
+[11.121042] (-) TimerEvent: {}
+[11.222030] (-) TimerEvent: {}
+[11.322958] (-) TimerEvent: {}
+[11.423987] (-) TimerEvent: {}
+[11.525936] (-) TimerEvent: {}
+[11.627820] (-) TimerEvent: {}
+[11.730065] (-) TimerEvent: {}
+[11.831223] (-) TimerEvent: {}
+[11.932141] (-) TimerEvent: {}
+[12.033093] (-) TimerEvent: {}
+[12.098383] (teleop) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[12.100722] (teleop) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[12.102304] (teleop) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[12.133506] (-) TimerEvent: {}
+[12.165916] (teleop) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[12.233651] (-) TimerEvent: {}
+[12.280187] (teleop) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[12.333856] (teleop) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[12.335497] (-) TimerEvent: {}
+[12.436374] (-) TimerEvent: {}
+[12.537365] (-) TimerEvent: {}
+[12.638327] (-) TimerEvent: {}
+[12.739594] (-) TimerEvent: {}
+[12.810618] (teleop) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[12.812798] (teleop) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[12.839781] (-) TimerEvent: {}
+[12.871061] (teleop) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[12.940004] (-) TimerEvent: {}
+[13.041047] (-) TimerEvent: {}
+[13.124506] (teleop) StdoutLine: {'line': b'-- Configuring done\n'}
+[13.141222] (-) TimerEvent: {}
+[13.242196] (-) TimerEvent: {}
+[13.348255] (-) TimerEvent: {}
+[13.450698] (-) TimerEvent: {}
+[13.551636] (-) TimerEvent: {}
+[13.661326] (-) TimerEvent: {}
+[13.767598] (-) TimerEvent: {}
+[13.870371] (-) TimerEvent: {}
+[13.989539] (-) TimerEvent: {}
+[14.090630] (-) TimerEvent: {}
+[14.194455] (-) TimerEvent: {}
+[14.296693] (-) TimerEvent: {}
+[14.399621] (-) TimerEvent: {}
+[14.504270] (-) TimerEvent: {}
+[14.605693] (-) TimerEvent: {}
+[14.707721] (-) TimerEvent: {}
+[14.900590] (-) TimerEvent: {}
+[15.003494] (-) TimerEvent: {}
+[15.128696] (-) TimerEvent: {}
+[15.266387] (-) TimerEvent: {}
+[15.380194] (-) TimerEvent: {}
+[15.496481] (-) TimerEvent: {}
+[15.604929] (-) TimerEvent: {}
+[15.633983] (teleop) StdoutLine: {'line': b'-- Generating done\n'}
+[15.705167] (-) TimerEvent: {}
+[15.806086] (-) TimerEvent: {}
+[15.907174] (-) TimerEvent: {}
+[16.008213] (-) TimerEvent: {}
+[16.109162] (-) TimerEvent: {}
+[16.210196] (-) TimerEvent: {}
+[16.311194] (-) TimerEvent: {}
+[16.364960] (teleop) StdoutLine: {'line': b'-- Build files have been written to: /ros2_ws/src/build/teleop\n'}
+[16.411374] (-) TimerEvent: {}
+[16.416813] (teleop) CommandEnded: {'returncode': 0}
+[16.440008] (teleop) JobProgress: {'identifier': 'teleop', 'progress': 'build'}
+[16.471749] (teleop) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros2_ws/src/build/teleop', '--', '-j8', '-l8'], 'cwd': '/ros2_ws/src/build/teleop', 'env': OrderedDict([('HOSTNAME', '770f70bd9264'), ('GIT_ASKPASS', '/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/ros2_ws'), ('TERM_PROGRAM_VERSION', '1.109.5'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-065b6671-d98a-48bd-972d-5367dc519897.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-12618d3b-6328-4670-bccd-9c3c6886d590.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/bin/072586267e68ece9a47aa43f8c108e0dcbf44622/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X0","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-1d9b5b8cf2.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/ros2_ws/src/build/teleop'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[16.511576] (-) TimerEvent: {}
+[16.612607] (-) TimerEvent: {}
+[16.713448] (-) TimerEvent: {}
+[16.814387] (-) TimerEvent: {}
+[16.851249] (teleop) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/command.dir/src/command.cpp.o\x1b[0m\n'}
+[16.854968] (teleop) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/qbot_platform_driver_interface.dir/src/qbot_platform_driver_interface.cpp.o\x1b[0m\n'}
+[16.914566] (-) TimerEvent: {}
+[17.015383] (-) TimerEvent: {}
+[17.116350] (-) TimerEvent: {}
+[17.217207] (-) TimerEvent: {}
+[17.318196] (-) TimerEvent: {}
+[17.420520] (-) TimerEvent: {}
+[17.521807] (-) TimerEvent: {}
+[17.623174] (-) TimerEvent: {}
+[17.723949] (-) TimerEvent: {}
+[17.753175] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/teleop/src/command.cpp:30:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kquanser/quanser_messages.h: No such file or directory\n'}
+[17.755173] (teleop) StderrLine: {'line': b'   30 | #include \x1b[01;31m\x1b[K"quanser/quanser_messages.h"\x1b[m\x1b[K\n'}
+[17.756767] (teleop) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.758451] (teleop) StderrLine: {'line': b'compilation terminated.\n'}
+[17.760544] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/teleop/src/qbot_platform_driver_interface.cpp:38:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kquanser/quanser_persistent_stream.h: No such file or directory\n'}
+[17.762136] (teleop) StderrLine: {'line': b'   38 | #include \x1b[01;31m\x1b[K"quanser/quanser_persistent_stream.h"\x1b[m\x1b[K\n'}
+[17.764230] (teleop) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.765736] (teleop) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/command.dir/build.make:76: CMakeFiles/command.dir/src/command.cpp.o] Error 1\n'}
+[17.767734] (teleop) StderrLine: {'line': b'compilation terminated.\n'}
+[17.769201] (teleop) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/command.dir/all] Error 2\n'}
+[17.770748] (teleop) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[17.777605] (teleop) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/qbot_platform_driver_interface.dir/build.make:76: CMakeFiles/qbot_platform_driver_interface.dir/src/qbot_platform_driver_interface.cpp.o] Error 1\n'}
+[17.779086] (teleop) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/qbot_platform_driver_interface.dir/all] Error 2\n'}
+[17.780541] (teleop) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[17.781857] (teleop) CommandEnded: {'returncode': 2}
+[17.824134] (-) TimerEvent: {}
+[17.925174] (-) TimerEvent: {}
+[18.026037] (-) TimerEvent: {}
+[18.034220] (teleop) JobEnded: {'identifier': 'teleop', 'rc': 2}
+[18.065609] (-) EventReactorShutdown: {}
