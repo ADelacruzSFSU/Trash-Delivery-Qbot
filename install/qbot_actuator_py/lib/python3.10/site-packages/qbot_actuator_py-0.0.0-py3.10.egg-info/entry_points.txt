@@ -1,0 +1,3 @@
+[console_scripts]
+actuator_node = qbot_actuator_py.actuator_node:main
+

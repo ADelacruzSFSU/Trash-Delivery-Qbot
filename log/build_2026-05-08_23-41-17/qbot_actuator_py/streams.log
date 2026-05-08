@@ -1,0 +1,37 @@
+[2.517s] Invoking command in '/ros2_ws/src/qbot_actuator_py': PYTHONPATH=/ros2_ws/build/qbot_actuator_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/qbot_actuator_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/qbot_actuator_py build --build-base /ros2_ws/build/qbot_actuator_py/build install --record /ros2_ws/build/qbot_actuator_py/install.log --single-version-externally-managed install_data
+[3.497s] running egg_info
+[3.513s] creating ../../build/qbot_actuator_py/qbot_actuator_py.egg-info
+[3.518s] writing ../../build/qbot_actuator_py/qbot_actuator_py.egg-info/PKG-INFO
+[3.534s] writing dependency_links to ../../build/qbot_actuator_py/qbot_actuator_py.egg-info/dependency_links.txt
+[3.544s] writing entry points to ../../build/qbot_actuator_py/qbot_actuator_py.egg-info/entry_points.txt
+[3.556s] writing requirements to ../../build/qbot_actuator_py/qbot_actuator_py.egg-info/requires.txt
+[3.562s] writing top-level names to ../../build/qbot_actuator_py/qbot_actuator_py.egg-info/top_level.txt
+[3.575s] writing manifest file '../../build/qbot_actuator_py/qbot_actuator_py.egg-info/SOURCES.txt'
+[3.622s] reading manifest file '../../build/qbot_actuator_py/qbot_actuator_py.egg-info/SOURCES.txt'
+[3.694s] writing manifest file '../../build/qbot_actuator_py/qbot_actuator_py.egg-info/SOURCES.txt'
+[3.699s] running build
+[3.700s] running build_py
+[3.708s] creating /ros2_ws/build/qbot_actuator_py/build
+[3.711s] creating /ros2_ws/build/qbot_actuator_py/build/lib
+[3.716s] creating /ros2_ws/build/qbot_actuator_py/build/lib/qbot_actuator_py
+[3.728s] copying qbot_actuator_py/actuator_node.py -> /ros2_ws/build/qbot_actuator_py/build/lib/qbot_actuator_py
+[3.758s] copying qbot_actuator_py/__init__.py -> /ros2_ws/build/qbot_actuator_py/build/lib/qbot_actuator_py
+[3.778s] running install
+[3.779s] running install_lib
+[3.809s] creating /ros2_ws/install/qbot_actuator_py/lib/python3.10/site-packages/qbot_actuator_py
+[3.832s] copying /ros2_ws/build/qbot_actuator_py/build/lib/qbot_actuator_py/actuator_node.py -> /ros2_ws/install/qbot_actuator_py/lib/python3.10/site-packages/qbot_actuator_py
+[3.878s] copying /ros2_ws/build/qbot_actuator_py/build/lib/qbot_actuator_py/__init__.py -> /ros2_ws/install/qbot_actuator_py/lib/python3.10/site-packages/qbot_actuator_py
+[3.916s] byte-compiling /ros2_ws/install/qbot_actuator_py/lib/python3.10/site-packages/qbot_actuator_py/actuator_node.py to actuator_node.cpython-310.pyc
+[3.973s] byte-compiling /ros2_ws/install/qbot_actuator_py/lib/python3.10/site-packages/qbot_actuator_py/__init__.py to __init__.cpython-310.pyc
+[4.013s] running install_data
+[4.022s] creating /ros2_ws/install/qbot_actuator_py/share/ament_index
+[4.025s] creating /ros2_ws/install/qbot_actuator_py/share/ament_index/resource_index
+[4.029s] creating /ros2_ws/install/qbot_actuator_py/share/ament_index/resource_index/packages
+[4.043s] copying resource/qbot_actuator_py -> /ros2_ws/install/qbot_actuator_py/share/ament_index/resource_index/packages
+[4.073s] copying package.xml -> /ros2_ws/install/qbot_actuator_py/share/qbot_actuator_py
+[4.091s] running install_egg_info
+[4.113s] Copying ../../build/qbot_actuator_py/qbot_actuator_py.egg-info to /ros2_ws/install/qbot_actuator_py/lib/python3.10/site-packages/qbot_actuator_py-0.0.0-py3.10.egg-info
+[4.454s] running install_scripts
+[4.545s] Installing actuator_node script to /ros2_ws/install/qbot_actuator_py/lib/qbot_actuator_py
+[4.569s] writing list of installed files to '/ros2_ws/build/qbot_actuator_py/install.log'
+[4.603s] Invoked command in '/ros2_ws/src/qbot_actuator_py' returned '0': PYTHONPATH=/ros2_ws/build/qbot_actuator_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/qbot_actuator_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/qbot_actuator_py build --build-base /ros2_ws/build/qbot_actuator_py/build install --record /ros2_ws/build/qbot_actuator_py/install.log --single-version-externally-managed install_data

@@ -1,0 +1,92 @@
+[0.000000] (-) TimerEvent: {}
+[0.000640] (-) JobUnselected: {'identifier': 'qbot_platform'}
+[0.001021] (qbot_actuator_py) JobQueued: {'identifier': 'qbot_actuator_py', 'dependencies': OrderedDict()}
+[0.001256] (qbot_actuator_py) JobStarted: {'identifier': 'qbot_actuator_py'}
+[0.098293] (-) TimerEvent: {}
+[0.199128] (-) TimerEvent: {}
+[0.299830] (-) TimerEvent: {}
+[0.400488] (-) TimerEvent: {}
+[0.501411] (-) TimerEvent: {}
+[0.602253] (-) TimerEvent: {}
+[0.703121] (-) TimerEvent: {}
+[0.803761] (-) TimerEvent: {}
+[0.904470] (-) TimerEvent: {}
+[1.005100] (-) TimerEvent: {}
+[1.106073] (-) TimerEvent: {}
+[1.207133] (-) TimerEvent: {}
+[1.321932] (-) TimerEvent: {}
+[1.422514] (-) TimerEvent: {}
+[1.523294] (-) TimerEvent: {}
+[1.623979] (-) TimerEvent: {}
+[1.724593] (-) TimerEvent: {}
+[1.825581] (-) TimerEvent: {}
+[1.926342] (-) TimerEvent: {}
+[2.026956] (-) TimerEvent: {}
+[2.127930] (-) TimerEvent: {}
+[2.228836] (-) TimerEvent: {}
+[2.329789] (-) TimerEvent: {}
+[2.430463] (-) TimerEvent: {}
+[2.494406] (qbot_actuator_py) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/qbot_actuator_py', 'build', '--build-base', '/ros2_ws/build/qbot_actuator_py/build', 'install', '--record', '/ros2_ws/build/qbot_actuator_py/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/ros2_ws/src/qbot_actuator_py', 'env': {'HOSTNAME': '770f70bd9264', 'GIT_ASKPASS': '/root/.vscode-server/bin/8b640eef5a6c6089c029249d48efa5c99adf7d51/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/root/.vscode-server/bin/8b640eef5a6c6089c029249d48efa5c99adf7d51/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/ros2_ws/src/qbot_actuator_py/qbot_actuator_py', 'TERM_PROGRAM_VERSION': '1.119.0', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-c1b6ced6-4ab1-439d-afea-f28c9aef1db9.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/8b640eef5a6c6089c029249d48efa5c99adf7d51/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/8b640eef5a6c6089c029249d48efa5c99adf7d51/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'COLCON_PREFIX_PATH': '/ros2_ws/src/qbot_actuator_py/qbot_actuator_py/install', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-dcfd0154-ef36-4393-b944-24970b185cc0.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/bin/8b640eef5a6c6089c029249d48efa5c99adf7d51/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/.X11-unix/X6","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':6', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-1d9b5b8cf2.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X6', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/ros2_ws/build/qbot_actuator_py', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/ros2_ws/build/qbot_actuator_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/qbot_actuator_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[2.530576] (-) TimerEvent: {}
+[2.631244] (-) TimerEvent: {}
+[2.732066] (-) TimerEvent: {}
+[2.832718] (-) TimerEvent: {}
+[2.933378] (-) TimerEvent: {}
+[3.033925] (-) TimerEvent: {}
+[3.134554] (-) TimerEvent: {}
+[3.235339] (-) TimerEvent: {}
+[3.336165] (-) TimerEvent: {}
+[3.436712] (-) TimerEvent: {}
+[3.497547] (qbot_actuator_py) StdoutLine: {'line': b'running egg_info\n'}
+[3.513630] (qbot_actuator_py) StdoutLine: {'line': b'creating ../../build/qbot_actuator_py/qbot_actuator_py.egg-info\n'}
+[3.518161] (qbot_actuator_py) StdoutLine: {'line': b'writing ../../build/qbot_actuator_py/qbot_actuator_py.egg-info/PKG-INFO\n'}
+[3.534765] (qbot_actuator_py) StdoutLine: {'line': b'writing dependency_links to ../../build/qbot_actuator_py/qbot_actuator_py.egg-info/dependency_links.txt\n'}
+[3.536790] (-) TimerEvent: {}
+[3.544627] (qbot_actuator_py) StdoutLine: {'line': b'writing entry points to ../../build/qbot_actuator_py/qbot_actuator_py.egg-info/entry_points.txt\n'}
+[3.554739] (qbot_actuator_py) StdoutLine: {'line': b'writing requirements to ../../build/qbot_actuator_py/qbot_actuator_py.egg-info/requires.txt\n'}
+[3.562170] (qbot_actuator_py) StdoutLine: {'line': b'writing top-level names to ../../build/qbot_actuator_py/qbot_actuator_py.egg-info/top_level.txt\n'}
+[3.574997] (qbot_actuator_py) StdoutLine: {'line': b"writing manifest file '../../build/qbot_actuator_py/qbot_actuator_py.egg-info/SOURCES.txt'\n"}
+[3.622387] (qbot_actuator_py) StdoutLine: {'line': b"reading manifest file '../../build/qbot_actuator_py/qbot_actuator_py.egg-info/SOURCES.txt'\n"}
+[3.636926] (-) TimerEvent: {}
+[3.694109] (qbot_actuator_py) StdoutLine: {'line': b"writing manifest file '../../build/qbot_actuator_py/qbot_actuator_py.egg-info/SOURCES.txt'\n"}
+[3.699401] (qbot_actuator_py) StdoutLine: {'line': b'running build\n'}
+[3.700784] (qbot_actuator_py) StdoutLine: {'line': b'running build_py\n'}
+[3.707924] (qbot_actuator_py) StdoutLine: {'line': b'creating /ros2_ws/build/qbot_actuator_py/build\n'}
+[3.711565] (qbot_actuator_py) StdoutLine: {'line': b'creating /ros2_ws/build/qbot_actuator_py/build/lib\n'}
+[3.716628] (qbot_actuator_py) StdoutLine: {'line': b'creating /ros2_ws/build/qbot_actuator_py/build/lib/qbot_actuator_py\n'}
+[3.728814] (qbot_actuator_py) StdoutLine: {'line': b'copying qbot_actuator_py/actuator_node.py -> /ros2_ws/build/qbot_actuator_py/build/lib/qbot_actuator_py\n'}
+[3.736980] (-) TimerEvent: {}
+[3.758418] (qbot_actuator_py) StdoutLine: {'line': b'copying qbot_actuator_py/__init__.py -> /ros2_ws/build/qbot_actuator_py/build/lib/qbot_actuator_py\n'}
+[3.777807] (qbot_actuator_py) StdoutLine: {'line': b'running install\n'}
+[3.779431] (qbot_actuator_py) StdoutLine: {'line': b'running install_lib\n'}
+[3.809799] (qbot_actuator_py) StdoutLine: {'line': b'creating /ros2_ws/install/qbot_actuator_py/lib/python3.10/site-packages/qbot_actuator_py\n'}
+[3.832608] (qbot_actuator_py) StdoutLine: {'line': b'copying /ros2_ws/build/qbot_actuator_py/build/lib/qbot_actuator_py/actuator_node.py -> /ros2_ws/install/qbot_actuator_py/lib/python3.10/site-packages/qbot_actuator_py\n'}
+[3.837090] (-) TimerEvent: {}
+[3.879036] (qbot_actuator_py) StdoutLine: {'line': b'copying /ros2_ws/build/qbot_actuator_py/build/lib/qbot_actuator_py/__init__.py -> /ros2_ws/install/qbot_actuator_py/lib/python3.10/site-packages/qbot_actuator_py\n'}
+[3.916984] (qbot_actuator_py) StdoutLine: {'line': b'byte-compiling /ros2_ws/install/qbot_actuator_py/lib/python3.10/site-packages/qbot_actuator_py/actuator_node.py to actuator_node.cpython-310.pyc\n'}
+[3.937194] (-) TimerEvent: {}
+[3.972847] (qbot_actuator_py) StdoutLine: {'line': b'byte-compiling /ros2_ws/install/qbot_actuator_py/lib/python3.10/site-packages/qbot_actuator_py/__init__.py to __init__.cpython-310.pyc\n'}
+[4.013268] (qbot_actuator_py) StdoutLine: {'line': b'running install_data\n'}
+[4.022743] (qbot_actuator_py) StdoutLine: {'line': b'creating /ros2_ws/install/qbot_actuator_py/share/ament_index\n'}
+[4.026132] (qbot_actuator_py) StdoutLine: {'line': b'creating /ros2_ws/install/qbot_actuator_py/share/ament_index/resource_index\n'}
+[4.029935] (qbot_actuator_py) StdoutLine: {'line': b'creating /ros2_ws/install/qbot_actuator_py/share/ament_index/resource_index/packages\n'}
+[4.037299] (-) TimerEvent: {}
+[4.043694] (qbot_actuator_py) StdoutLine: {'line': b'copying resource/qbot_actuator_py -> /ros2_ws/install/qbot_actuator_py/share/ament_index/resource_index/packages\n'}
+[4.073759] (qbot_actuator_py) StdoutLine: {'line': b'copying package.xml -> /ros2_ws/install/qbot_actuator_py/share/qbot_actuator_py\n'}
+[4.091474] (qbot_actuator_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.113136] (qbot_actuator_py) StdoutLine: {'line': b'Copying ../../build/qbot_actuator_py/qbot_actuator_py.egg-info to /ros2_ws/install/qbot_actuator_py/lib/python3.10/site-packages/qbot_actuator_py-0.0.0-py3.10.egg-info\n'}
+[4.137484] (-) TimerEvent: {}
+[4.238155] (-) TimerEvent: {}
+[4.338821] (-) TimerEvent: {}
+[4.439539] (-) TimerEvent: {}
+[4.454606] (qbot_actuator_py) StdoutLine: {'line': b'running install_scripts\n'}
+[4.539706] (-) TimerEvent: {}
+[4.545175] (qbot_actuator_py) StdoutLine: {'line': b'Installing actuator_node script to /ros2_ws/install/qbot_actuator_py/lib/qbot_actuator_py\n'}
+[4.569383] (qbot_actuator_py) StdoutLine: {'line': b"writing list of installed files to '/ros2_ws/build/qbot_actuator_py/install.log'\n"}
+[4.602921] (qbot_actuator_py) CommandEnded: {'returncode': 0}
+[4.639822] (-) TimerEvent: {}
+[4.740323] (-) TimerEvent: {}
+[4.840991] (-) TimerEvent: {}
+[4.941793] (-) TimerEvent: {}
+[5.002440] (qbot_actuator_py) JobEnded: {'identifier': 'qbot_actuator_py', 'rc': 0}
+[5.014933] (-) EventReactorShutdown: {}
