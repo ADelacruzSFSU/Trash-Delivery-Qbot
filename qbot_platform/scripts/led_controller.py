@@ -1,0 +1,73 @@
+#!/usr/bin/env python3
+"""Small helper for publishing QBot LED strip colors."""
+
+from rclpy.node import Node
+from std_msgs.msg import ColorRGBA
+
+
+class LEDController:
+    OFF = (0.0, 0.0, 0.0)
+    BLUE = (0.0, 0.0, 1.0)
+    YELLOW = (1.0, 1.0, 0.0)
+    RED = (1.0, 0.0, 0.0)
+    GREEN = (0.0, 1.0, 0.0)
+
+    def __init__(self, node: Node, led_topic: str = "/qbot_led_strip"):
+        self.node = node
+        self.led_pub = node.create_publisher(ColorRGBA, led_topic, 10)
+        self.current_msg = None
+        self.flash_timer = None
+        self.flash_color = self.OFF
+        self.flash_on = False
+        self.republish_timer = node.create_timer(0.2, self._republish_current)
+
+    def _publish_color(self, color: tuple, brightness: float = 1.0):
+        msg = ColorRGBA()
+        msg.r = float(color[0]) * brightness
+        msg.g = float(color[1]) * brightness
+        msg.b = float(color[2]) * brightness
+        msg.a = 1.0
+        self.current_msg = msg
+        self.led_pub.publish(msg)
+
+    def _republish_current(self):
+        if self.current_msg is not None:
+            self.led_pub.publish(self.current_msg)
+
+    def set_color(self, color: tuple, brightness: float = 1.0):
+        self.stop_flash()
+        self._publish_color(color, brightness)
+
+    def blue(self):
+        self.set_color(self.BLUE)
+
+    def blue_flash(self, flash_freq: float = 2.0):
+        self.start_flash(self.BLUE, flash_freq)
+
+    def yellow(self):
+        self.set_color(self.YELLOW)
+
+    def red(self):
+        self.set_color(self.RED)
+
+    def off(self):
+        self.set_color(self.OFF)
+
+    def start_flash(self, color: tuple, flash_freq: float = 2.0):
+        self.stop_flash()
+        half_period = 0.5 / max(0.1, float(flash_freq))
+        self.flash_color = color
+        self.flash_on = True
+        self._publish_color(self.flash_color)
+        self.flash_timer = self.node.create_timer(half_period, self._flash_step)
+
+    def _flash_step(self):
+        self.flash_on = not self.flash_on
+        self._publish_color(self.flash_color if self.flash_on else self.OFF)
+
+    def stop_flash(self):
+        if self.flash_timer is not None:
+            self.flash_timer.cancel()
+            self.node.destroy_timer(self.flash_timer)
+            self.flash_timer = None
+        self.flash_on = False
